@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "usenet-blacklist",
+  "version": "1.0",
+
+  "description": "Blacklist a user locally on usenet-crawler.com.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.usenet-crawler.com/*"],
+      "js": ["usenet-blacklist.js"]
+    }
+  ]
+
+}

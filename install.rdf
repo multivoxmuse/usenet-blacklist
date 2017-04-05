@@ -1,0 +1,18 @@
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <!-- properties -->
+    <em:id>usenet-blacklist@something.org</em:id>
+    <em:name>usenet-blacklist</em:name>
+    <em:targetApplication>
+      <Description>
+       <em:id>usenet-blacklist@something.org</em:id> <!--Firefox-->
+       <em:minVersion>0.0</em:minVersion>
+       <em:maxVersion>1000000.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <em:type>2</em:type>
+    <em:version>2.0</em:version>
+    <em:targetPlatform>WINNT_x86-gcc3</em:targetPlatform>
+  </Description>
+</RDF>
